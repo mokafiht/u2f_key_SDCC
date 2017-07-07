@@ -1,0 +1,38 @@
+-muwx
+-i D:\Freelancer_projects\jan333\sdcc_project\releases\jan333.hex
+-M
+-Y
+-y
+-b HOME = 0x0000
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k D:\programs\SDCC\bin\..\lib\large-stack-auto
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+D:\Freelancer_projects\jan333\sdcc_project\src\main.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\InitDevice.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\u2f_hid.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\i2c.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\Interrupts.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\atecc508a.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\bsp.rel
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbd.rel
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdch9.rel
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdep.rel
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\callback.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\descriptors.rel
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8ub1\peripheralDrivers\src\usb_0.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\custom.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\tests.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\eeprom.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\u2f.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\u2f_atecc.rel
+D:\Freelancer_projects\jan333\sdcc_project\src\cert.rel
+
+-e

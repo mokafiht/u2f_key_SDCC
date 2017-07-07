@@ -1,0 +1,42 @@
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:207: warning 182: absolute address for sfr 'ADC0GT' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:207: warning 182: absolute address for sfr 'ADC0GT' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:208: warning 182: absolute address for sfr 'ADC0' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:208: warning 182: absolute address for sfr 'ADC0' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:209: warning 182: absolute address for sfr 'ADC0LT' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:209: warning 182: absolute address for sfr 'ADC0LT' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:210: warning 182: absolute address for sfr 'DP' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:210: warning 182: absolute address for sfr 'DP' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:211: warning 182: absolute address for sfr 'PCA0CP0' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:211: warning 182: absolute address for sfr 'PCA0CP0' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:212: warning 182: absolute address for sfr 'PCA0CP1' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:212: warning 182: absolute address for sfr 'PCA0CP1' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:213: warning 182: absolute address for sfr 'PCA0CP2' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:213: warning 182: absolute address for sfr 'PCA0CP2' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:214: warning 182: absolute address for sfr 'PCA0' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:214: warning 182: absolute address for sfr 'PCA0' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:215: warning 182: absolute address for sfr 'SBRL1' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:215: warning 182: absolute address for sfr 'SBRL1' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:216: warning 182: absolute address for sfr 'TMR2' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:216: warning 182: absolute address for sfr 'TMR2' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:217: warning 182: absolute address for sfr 'TMR2RL' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:217: warning 182: absolute address for sfr 'TMR2RL' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:218: warning 182: absolute address for sfr 'TMR3' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:218: warning 182: absolute address for sfr 'TMR3' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:219: warning 182: absolute address for sfr 'TMR3RL' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:219: warning 182: absolute address for sfr 'TMR3RL' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:220: warning 182: absolute address for sfr 'TMR4' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:220: warning 182: absolute address for sfr 'TMR4' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:221: warning 182: absolute address for sfr 'TMR4RL' probably out of range.
+D:/programs/SilabsMCU/Inc/SI_EFM8UB1_Defs.h:221: warning 182: absolute address for sfr 'TMR4RL' probably out of range.
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:237: warning 94: comparison is always false due to limited range of data type
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:240: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:240: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:240: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_us+ D:\programs\SDCC\bin\sdcpp.exe -nostdinc -Wall -std=c11 -I"D:\programs\SilabsMCU\Inc" -I"D:\Freelancer_projects\jan333\sdcc_project\inc" -I"D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\inc" -I"D:\Freelancer_projects\jan333\sdcc_project\inc\config" -I"D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_assert" -I"D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\inc" -I"D:\Freelancer_projects\jan333\sdcc_project\lib\efm8ub1\peripheralDrivers\inc" -I"D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src" -obj-ext=.rel -D__SDCC_STACK_AUTO -D__SDCC_CHAR_UNSIGNED -D__SDCC_MODEL_LARGE -D__SDCC_INT_LONG_REENT -D__SDCC_FLOAT_REENT -D__SDCC=3_6_0 -D__SDCC_VERSION_MAJOR=3 -D__SDCC_VERSION_MINOR=6 -D__SDCC_VERSION_PATCH=0 -DSDCC=360 -D__SDCC_REVISION=9615 -D__SDCC_mcs51 -D__STDC_NO_COMPLEX__=1 -D__STDC_NO_THREADS__=1 -D__STDC_NO_ATOMICS__=1 -D__STDC_NO_VLA__=1 -D__STDC_ISO_10646__=201409L -D__STDC_UTF_16__=1 -D__STDC_UTF_32__=1 -isystem "D:\programs\SDCC\bin\..\include\mcs51" -isystem "D:\programs\SDCC\bin\..\include"  "D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c" 
++ D:\programs\SDCC\bin\sdas8051.exe -plosgffwy "efm8_usbdint.rel" "efm8_usbdint".asm
+bdint.c:240: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:240: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:240: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:242: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:246: warning 126: unreachable code
+D:\Freelancer_projects\jan333\sdcc_project\lib\efm8_usb\src\efm8_usbdint.c:486: warning 158: overflow in implicit constant conversion

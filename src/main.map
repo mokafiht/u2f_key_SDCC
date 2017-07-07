@@ -1,0 +1,643 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  _enter_DefaultMode_from_RESET   
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_BSEG                          
+C:   00000000  l_BSEG_BYTES                    
+C:   00000000  l_CABS                          
+C:   00000000  l_CONST                         
+C:   00000000  l_GSINIT                        
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000002  l_OSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_HOME                          
+C:   00000006  s_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   00000009  s_GSINIT1                       
+C:   00000009  s_GSINIT2                       
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000013  s_GSINIT3                       
+C:   00000018  s_BIT_BANK                      
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000035  s_GSINIT4                       
+C:   00000054  s_OSEG                          
+C:   00000056  s_SSEG                          
+C:   0000005F  s_GSFINAL                       
+C:   0000005F  s_GSINIT                        
+C:   0000005F  s_GSINIT5                       
+C:   00000062  s_CSEG                          
+C:   00000080  l_DSEG                          
+C:   000000AA  l_SSEG                          
+C:   00000100  l_IRAM                          
+C:   00000176  l_CSEG                          
+C:   000001D8  s_CONST                         
+C:   000001D8  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  _P0                                InitDevice
+     00000080  _P0_B0                             InitDevice
+     00000081  _P0_B1                             InitDevice
+     00000081  _SP                                InitDevice
+     00000082  _DP                                InitDevice
+     00000082  _DPL                               InitDevice
+     00000082  _P0_B2                             InitDevice
+     00000083  _DPH                               InitDevice
+     00000083  _P0_B3                             InitDevice
+     00000084  _P0_B4                             InitDevice
+     00000085  _P0_B5                             InitDevice
+     00000086  _CRC0CN1                           InitDevice
+     00000086  _P0_B6                             InitDevice
+     00000087  _P0_B7                             InitDevice
+     00000087  _PCON0                             InitDevice
+     00000088  _TCON                              InitDevice
+     00000088  _TCON_IT0                          InitDevice
+     00000089  _TCON_IE0                          InitDevice
+     00000089  _TMOD                              InitDevice
+     0000008A  _TCON_IT1                          InitDevice
+     0000008A  _TL0                               InitDevice
+     0000008B  _TCON_IE1                          InitDevice
+     0000008B  _TL1                               InitDevice
+     0000008C  _TCON_TR0                          InitDevice
+     0000008C  _TH0                               InitDevice
+     0000008D  _TCON_TF0                          InitDevice
+     0000008D  _TH1                               InitDevice
+     0000008E  _CKCON0                            InitDevice
+     0000008E  _TCON_TR1                          InitDevice
+     0000008F  _PSCTL                             InitDevice
+     0000008F  _TCON_TF1                          InitDevice
+     00000090  _P1                                InitDevice
+     00000090  _P1_B0                             InitDevice
+     00000091  _P1_B1                             InitDevice
+     00000091  _TMR3CN0                           InitDevice
+     00000092  _P1_B2                             InitDevice
+     00000092  _SBUF1                             InitDevice
+     00000092  _TMR3RL                            InitDevice
+     00000092  _TMR3RLL                           InitDevice
+     00000093  _P1_B3                             InitDevice
+     00000093  _SMOD1                             InitDevice
+     00000093  _TMR3RLH                           InitDevice
+     00000094  _P1_B4                             InitDevice
+     00000094  _SBCON1                            InitDevice
+     00000094  _TMR3                              InitDevice
+     00000094  _TMR3L                             InitDevice
+     00000095  _P1_B5                             InitDevice
+     00000095  _SBRL1                             InitDevice
+     00000095  _SBRLL1                            InitDevice
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000095  _TMR3H                             InitDevice
+     00000096  _P1_B6                             InitDevice
+     00000096  _PCA0POL                           InitDevice
+     00000096  _SBRLH1                            InitDevice
+     00000097  _P1_B7                             InitDevice
+     00000097  _WDTCN                             InitDevice
+     00000098  _SCON0                             InitDevice
+     00000098  _SCON0_RI                          InitDevice
+     00000098  _TMR4CN0                           InitDevice
+     00000098  _TMR4CN0_T4XCLK0                   InitDevice
+     00000099  _CMP0CN1                           InitDevice
+     00000099  _SBUF0                             InitDevice
+     00000099  _SCON0_TI                          InitDevice
+     00000099  _TMR4CN0_T4XCLK1                   InitDevice
+     0000009A  _PCON1                             InitDevice
+     0000009A  _SCON0_RB8                         InitDevice
+     0000009A  _SPI0FCN0                          InitDevice
+     0000009A  _TMR4CN0_TR4                       InitDevice
+     0000009B  _CMP0CN0                           InitDevice
+     0000009B  _SCON0_TB8                         InitDevice
+     0000009B  _SPI0FCN1                          InitDevice
+     0000009B  _TMR4CN0_T4SPLIT                   InitDevice
+     0000009C  _P3MDOUT                           InitDevice
+     0000009C  _PCA0CLR                           InitDevice
+     0000009C  _SCON0_REN                         InitDevice
+     0000009C  _TMR4CN0_TF4CEN                    InitDevice
+     0000009D  _CMP0MD                            InitDevice
+     0000009D  _SCON0_MCE                         InitDevice
+     0000009D  _TMR4CN0_TF4LEN                    InitDevice
+     0000009D  _UART1FCN0                         InitDevice
+     0000009E  _PCA0CENT                          InitDevice
+     0000009E  _TMR4CN0_TF4L                      InitDevice
+     0000009E  _UART1LIN                          InitDevice
+     0000009F  _CMP0MX                            InitDevice
+     0000009F  _SCON0_SMODE                       InitDevice
+     0000009F  _TMR4CN0_TF4H                      InitDevice
+     000000A0  _P2                                InitDevice
+     000000A0  _P2_B0                             InitDevice
+     000000A1  _P2_B1                             InitDevice
+     000000A1  _SPI0CFG                           InitDevice
+     000000A2  _P2_B2                             InitDevice
+     000000A2  _SPI0CKR                           InitDevice
+     000000A2  _TMR4RL                            InitDevice
+     000000A2  _TMR4RLL                           InitDevice
+     000000A3  _P2_B3                             InitDevice
+     000000A3  _SPI0DAT                           InitDevice
+     000000A3  _TMR4RLH                           InitDevice
+     000000A4  _P0MDOUT                           InitDevice
+     000000A4  _TMR4                              InitDevice
+     000000A4  _TMR4L                             InitDevice
+     000000A5  _P1MDOUT                           InitDevice
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000A5  _TMR4H                             InitDevice
+     000000A6  _CKCON1                            InitDevice
+     000000A6  _P2MDOUT                           InitDevice
+     000000A7  _SFRPAGE                           InitDevice
+     000000A8  _IE                                InitDevice
+     000000A8  _IE_EX0                            InitDevice
+     000000A9  _CLKSEL                            InitDevice
+     000000A9  _IE_ET0                            InitDevice
+     000000AA  _CMP1MX                            InitDevice
+     000000AA  _IE_EX1                            InitDevice
+     000000AA  __XPAGE                            InitDevice
+     000000AB  _CMP1MD                            InitDevice
+     000000AB  _I2C0FCN1                          InitDevice
+     000000AB  _IE_ET1                            InitDevice
+     000000AC  _CMP1CN1                           InitDevice
+     000000AC  _IE_ES0                            InitDevice
+     000000AC  _SMB0TC                            InitDevice
+     000000AD  _DERIVID                           InitDevice
+     000000AD  _I2C0FCN0                          InitDevice
+     000000AD  _IE_ET2                            InitDevice
+     000000AE  _IE_ESPI0                          InitDevice
+     000000AE  _USB0ADR                           InitDevice
+     000000AF  _IE_EA                             InitDevice
+     000000AF  _USB0DAT                           InitDevice
+     000000B0  _P3                                InitDevice
+     000000B0  _P3_B0                             InitDevice
+     000000B1  _LFO0CN                            InitDevice
+     000000B1  _P3_B1                             InitDevice
+     000000B2  _ADC0CN1                           InitDevice
+     000000B2  _USB0AEC                           InitDevice
+     000000B3  _ADC0AC                            InitDevice
+     000000B3  _USB0XCN                           InitDevice
+     000000B5  _DEVICEID                          InitDevice
+     000000B5  _USB0CF                            InitDevice
+     000000B6  _REVID                             InitDevice
+     000000B6  _USB0CDCF                          InitDevice
+     000000B7  _FLKEY                             InitDevice
+     000000B8  _IP                                InitDevice
+     000000B8  _IP_PX0                            InitDevice
+     000000B9  _ADC0TK                            InitDevice
+     000000B9  _I2C0STAT                          InitDevice
+     000000B9  _IP_PT0                            InitDevice
+     000000BA  _I2C0CN0                           InitDevice
+     000000BA  _IP_PX1                            InitDevice
+     000000BB  _ADC0MX                            InitDevice
+     000000BB  _I2C0DOUT                          InitDevice
+     000000BB  _IP_PT1                            InitDevice
+     000000BC  _ADC0CF                            InitDevice
+     000000BC  _I2C0DIN                           InitDevice
+     000000BC  _IP_PS0                            InitDevice
+     000000BD  _ADC0                              InitDevice
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000BD  _ADC0L                             InitDevice
+     000000BD  _I2C0SLAD                          InitDevice
+     000000BD  _IP_PT2                            InitDevice
+     000000BE  _ADC0H                             InitDevice
+     000000BE  _IP_PSPI0                          InitDevice
+     000000BE  _USB0CDCN                          InitDevice
+     000000BF  _CMP1CN0                           InitDevice
+     000000BF  _USB0CDSTA                         InitDevice
+     000000C0  _SMB0CN0                           InitDevice
+     000000C0  _SMB0CN0_SI                        InitDevice
+     000000C1  _PFE0CN                            InitDevice
+     000000C1  _SMB0CF                            InitDevice
+     000000C1  _SMB0CN0_ACK                       InitDevice
+     000000C2  _SMB0CN0_ARBLOST                   InitDevice
+     000000C2  _SMB0DAT                           InitDevice
+     000000C3  _ADC0GT                            InitDevice
+     000000C3  _ADC0GTL                           InitDevice
+     000000C3  _SMB0CN0_ACKRQ                     InitDevice
+     000000C3  _SMB0FCN0                          InitDevice
+     000000C4  _ADC0GTH                           InitDevice
+     000000C4  _SMB0CN0_STO                       InitDevice
+     000000C4  _SMB0FCN1                          InitDevice
+     000000C5  _ADC0LT                            InitDevice
+     000000C5  _ADC0LTL                           InitDevice
+     000000C5  _SMB0CN0_STA                       InitDevice
+     000000C5  _SMB0RXLN                          InitDevice
+     000000C6  _ADC0LTH                           InitDevice
+     000000C6  _REG1CN                            InitDevice
+     000000C6  _SMB0CN0_TXMODE                    InitDevice
+     000000C7  _HFO0CAL                           InitDevice
+     000000C7  _SMB0CN0_MASTER                    InitDevice
+     000000C8  _SCON1                             InitDevice
+     000000C8  _SCON1_RI                          InitDevice
+     000000C8  _TMR2CN0                           InitDevice
+     000000C8  _TMR2CN0_T2XCLK0                   InitDevice
+     000000C9  _REG0CN                            InitDevice
+     000000C9  _SCON1_TI                          InitDevice
+     000000C9  _TMR2CN0_T2XCLK1                   InitDevice
+     000000CA  _SCON1_RBX                         InitDevice
+     000000CA  _TMR2CN0_TR2                       InitDevice
+     000000CA  _TMR2RL                            InitDevice
+     000000CA  _TMR2RLL                           InitDevice
+     000000CB  _SCON1_TBX                         InitDevice
+     000000CB  _TMR2CN0_T2SPLIT                   InitDevice
+     000000CB  _TMR2RLH                           InitDevice
+     000000CC  _P2SKIP                            InitDevice
+     000000CC  _SCON1_REN                         InitDevice
+     000000CC  _TMR2                              InitDevice
+     000000CC  _TMR2CN0_TF2CEN                    InitDevice
+     000000CC  _TMR2L                             InitDevice
+     000000CD  _TMR2CN0_TF2LEN                    InitDevice
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CD  _TMR2H                             InitDevice
+     000000CE  _CRC0CN0                           InitDevice
+     000000CE  _EIE2                              InitDevice
+     000000CE  _SCON1_PERR                        InitDevice
+     000000CE  _TMR2CN0_TF2L                      InitDevice
+     000000CF  _CRC0FLIP                          InitDevice
+     000000CF  _SCON1_OVR                         InitDevice
+     000000CF  _SFRPGCN                           InitDevice
+     000000CF  _TMR2CN0_TF2H                      InitDevice
+     000000D0  _PSW                               InitDevice
+     000000D0  _PSW_PARITY                        InitDevice
+     000000D1  _PSW_F1                            InitDevice
+     000000D1  _REF0CN                            InitDevice
+     000000D2  _CRC0ST                            InitDevice
+     000000D2  _PSW_OV                            InitDevice
+     000000D3  _CRC0CNT                           InitDevice
+     000000D3  _PSW_RS0                           InitDevice
+     000000D4  _P0SKIP                            InitDevice
+     000000D4  _PSW_RS1                           InitDevice
+     000000D5  _P1SKIP                            InitDevice
+     000000D5  _PSW_F0                            InitDevice
+     000000D6  _HFO1CAL                           InitDevice
+     000000D6  _PSW_AC                            InitDevice
+     000000D6  _SMB0ADM                           InitDevice
+     000000D7  _PSW_CY                            InitDevice
+     000000D7  _SFRSTACK                          InitDevice
+     000000D7  _SMB0ADR                           InitDevice
+     000000D8  _PCA0CN0                           InitDevice
+     000000D8  _PCA0CN0_CCF0                      InitDevice
+     000000D8  _UART1FCN1                         InitDevice
+     000000D8  _UART1FCN1_RIE                     InitDevice
+     000000D9  _PCA0CN0_CCF1                      InitDevice
+     000000D9  _PCA0MD                            InitDevice
+     000000D9  _UART1FCN1_RXTO0                   InitDevice
+     000000DA  _PCA0CN0_CCF2                      InitDevice
+     000000DA  _PCA0CPM0                          InitDevice
+     000000DA  _UART1FCN1_RXTO1                   InitDevice
+     000000DB  _PCA0CPM1                          InitDevice
+     000000DB  _UART1FCN1_RFRQ                    InitDevice
+     000000DC  _PCA0CPM2                          InitDevice
+     000000DC  _UART1FCN1_TIE                     InitDevice
+     000000DD  _CRC0IN                            InitDevice
+     000000DD  _UART1FCN1_TXHOLD                  InitDevice
+     000000DE  _CRC0DAT                           InitDevice
+     000000DE  _PCA0CN0_CR                        InitDevice
+     000000DE  _UART1FCN1_TXNF                    InitDevice
+     000000DF  _ADC0PWR                           InitDevice
+     000000DF  _PCA0CN0_CF                        InitDevice
+     000000DF  _UART1FCN1_TFRQ                    InitDevice
+     000000E0  _ACC                               InitDevice
+     000000E0  _ACC_ACC0                          InitDevice
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000E1  _ACC_ACC1                          InitDevice
+     000000E1  _XBR0                              InitDevice
+     000000E2  _ACC_ACC2                          InitDevice
+     000000E2  _XBR1                              InitDevice
+     000000E3  _ACC_ACC3                          InitDevice
+     000000E3  _XBR2                              InitDevice
+     000000E4  _ACC_ACC4                          InitDevice
+     000000E4  _IT01CF                            InitDevice
+     000000E5  _ACC_ACC5                          InitDevice
+     000000E6  _ACC_ACC6                          InitDevice
+     000000E6  _EIE1                              InitDevice
+     000000E7  _ACC_ACC7                          InitDevice
+     000000E7  _EMI0CN                            InitDevice
+     000000E8  _ADC0CN0                           InitDevice
+     000000E8  _ADC0CN0_ADCM0                     InitDevice
+     000000E9  _ADC0CN0_ADCM1                     InitDevice
+     000000E9  _PCA0CP1                           InitDevice
+     000000E9  _PCA0CPL1                          InitDevice
+     000000EA  _ADC0CN0_ADCM2                     InitDevice
+     000000EA  _PCA0CPH1                          InitDevice
+     000000EB  _ADC0CN0_ADWINT                    InitDevice
+     000000EB  _PCA0CP2                           InitDevice
+     000000EB  _PCA0CPL2                          InitDevice
+     000000EC  _ADC0CN0_ADBUSY                    InitDevice
+     000000EC  _PCA0CPH2                          InitDevice
+     000000ED  _ADC0CN0_ADINT                     InitDevice
+     000000ED  _P1MAT                             InitDevice
+     000000EE  _ADC0CN0_ADBMEN                    InitDevice
+     000000EE  _P1MASK                            InitDevice
+     000000EF  _ADC0CN0_ADEN                      InitDevice
+     000000EF  _HFOCN                             InitDevice
+     000000EF  _RSTSRC                            InitDevice
+     000000EF  _SMB0FCT                           InitDevice
+     000000F0  _B                                 InitDevice
+     000000F0  _B_B0                              InitDevice
+     000000F1  _B_B1                              InitDevice
+     000000F1  _P0MDIN                            InitDevice
+     000000F2  _B_B2                              InitDevice
+     000000F2  _IPH                               InitDevice
+     000000F2  _P1MDIN                            InitDevice
+     000000F3  _B_B3                              InitDevice
+     000000F3  _EIP1                              InitDevice
+     000000F3  _P2MDIN                            InitDevice
+     000000F4  _B_B4                              InitDevice
+     000000F4  _EIP2                              InitDevice
+     000000F4  _P3MDIN                            InitDevice
+     000000F5  _B_B5                              InitDevice
+     000000F5  _EIP1H                             InitDevice
+     000000F5  _I2C0FCT                           InitDevice
+     000000F6  _B_B6                              InitDevice
+     000000F6  _EIP2H                             InitDevice
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F6  _PRTDRV                            InitDevice
+     000000F7  _B_B7                              InitDevice
+     000000F7  _PCA0PWM                           InitDevice
+     000000F7  _SPI0FCT                           InitDevice
+     000000F8  _SPI0CN0                           InitDevice
+     000000F8  _SPI0CN0_SPIEN                     InitDevice
+     000000F9  _PCA0                              InitDevice
+     000000F9  _PCA0L                             InitDevice
+     000000F9  _SPI0CN0_TXNF                      InitDevice
+     000000FA  _PCA0H                             InitDevice
+     000000FA  _SPI0CN0_NSSMD0                    InitDevice
+     000000FA  _UART1FCT                          InitDevice
+     000000FB  _P2MAT                             InitDevice
+     000000FB  _PCA0CP0                           InitDevice
+     000000FB  _PCA0CPL0                          InitDevice
+     000000FB  _SPI0CN0_NSSMD1                    InitDevice
+     000000FC  _P2MASK                            InitDevice
+     000000FC  _PCA0CPH0                          InitDevice
+     000000FC  _SPI0CN0_RXOVRN                    InitDevice
+     000000FD  _P0MAT                             InitDevice
+     000000FD  _SPI0CN0_MODF                      InitDevice
+     000000FD  _TMR2CN1                           InitDevice
+     000000FE  _P0MASK                            InitDevice
+     000000FE  _SPI0CN0_WCOL                      InitDevice
+     000000FE  _TMR3CN1                           InitDevice
+     000000FF  _SPI0CN0_SPIF                      InitDevice
+     000000FF  _TMR4CN1                           InitDevice
+     000000FF  _VDM0CN                            InitDevice
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  _appdata                           main
+     0000004E  _error                             main
+     0000004F  _state                             main
+     00000050  _winkc                             main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000054    00000002 =           2. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000054  _rgb_PARM_2                        main
+     00000055  _rgb_PARM_3                        main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000056    000000AA =         170. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000056  __start__stack                     main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000006 =           6. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000003  __sdcc_program_startup             main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000006    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000006  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000009    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000013    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000013  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000035    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000035  __mcs51_genRAMCLEAR                
+C:   0000003B  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000005F    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    00000176 =         374. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000069  _set_app_error                     main
+C:   0000006D  _get_app_error                     main
+C:   00000071  _get_app_state                     main
+C:   00000075  _set_app_state                     main
+C:   00000079  _app_wink                          main
+C:   0000008A  _rgb                               main
+C:   000000AF  _main                              main
+C:   000001D4  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+
+Files Linked                              [ module(s) ]
+
+main.rel                                  [  ]
+InitDevice.rel                            [  ]
+
+
+Libraries Linked                          [ object file ]
+
+D:\programs\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+D:\programs\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+D:\programs\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+D:\programs\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+D:\programs\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
+?ASlink-Warning-Undefined Global '_enter_DefaultMode_from_RESET' referenced by module 'main'
